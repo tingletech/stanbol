@@ -35,5 +35,5 @@ from the [IKS demo server](http://dev.iks-project.eu/downloads/stanbol-indices/)
 
 This bundle needs to include a small local index of DBPedia.org that includes the 43k entities with the most incoming Wiki links.
 
-This index is not in the subversion but is downloaded from `http://www.salzburgresearch.at/~rwesten/stanbol/dbpedia_43k.solrindex.zip` by the maven build
+This index is not in the subversion but is downloaded from `http://dev.iks-project.eu/downloads/stanbol-indices/dbpedia_43k.solrindex.zip` by the maven build
 and stored at`./src/main/resources/org/apache/stanbol/data/site/dbpedia/default/index/dbpedia_43k.solrindex.zip`.
